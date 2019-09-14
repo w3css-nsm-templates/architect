@@ -1,0 +1,13 @@
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+  @input(content/project.content)
+  @input(content/about.content)
+  @input(content/contact.content)
+  
+  <!-- Image of location/map -->
+  <div class="w3-container">
+    <img src="@pathtofile(site/images/map.jpg)" class="w3-image" style="width:100%">
+  </div>
+
+<!-- End page content -->
+</div>
