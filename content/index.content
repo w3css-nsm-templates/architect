@@ -6,7 +6,7 @@
   
   <!-- Image of location/map -->
   <div class="w3-container">
-    <img src="@pathtofile(site/images/map.jpg)" class="w3-image" style="width:100%">
+    <img src="@pathtofile($[output-dir]/images/map.jpg)" class="w3-image" style="width:100%">
   </div>
 
 <!-- End page content -->
